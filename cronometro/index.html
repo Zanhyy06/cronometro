@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cronómetros con Tiempo Personalizado</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Cronómetros con Tiempo Personalizado</h1>
+    <p>El cronómetro 1 y 2 están sincronizados. Puedes ingresar el tiempo que deseas que corran.</p>
+  </header>
+
+  <main class="container">
+    <!-- Cronómetros 1 y 2 sincronizados -->
+    <div class="cronometro">
+      <h2>Cronómetro 1</h2>
+      <label>Duración (segundos):</label>
+      <input type="number" class="tiempo-input" min="1" value="10">
+      <div class="display">00:00.00</div>
+      <div class="botones">
+        <button class="btn iniciar">Iniciar</button>
+        <button class="btn pausar">Pausar</button>
+        <button class="btn reiniciar">Reiniciar</button>
+      </div>
+    </div>
+
+    <div class="cronometro">
+      <h2>Cronómetro 2</h2>
+      <label>Duración (segundos):</label>
+      <input type="number" class="tiempo-input" min="1" value="10">
+      <div class="display">00:00.00</div>
+      <div class="botones">
+        <button class="btn iniciar">Iniciar</button>
+        <button class="btn pausar">Pausar</button>
+        <button class="btn reiniciar">Reiniciar</button>
+      </div>
+    </div>
+
+    <!-- Cronómetros independientes -->
+    <div class="cronometro">
+      <h2>Cronómetro 3</h2>
+      <label>Duración (segundos):</label>
+      <input type="number" class="tiempo-input" min="1" value="10">
+      <div class="display">00:00.00</div>
+      <div class="botones">
+        <button class="btn iniciar">Iniciar</button>
+        <button class="btn pausar">Pausar</button>
+        <button class="btn reiniciar">Reiniciar</button>
+      </div>
+    </div>
+
+    <div class="cronometro">
+      <h2>Cronómetro 4</h2>
+      <label>Duración (segundos):</label>
+      <input type="number" class="tiempo-input" min="1" value="10">
+      <div class="display">00:00.00</div>
+      <div class="botones">
+        <button class="btn iniciar">Iniciar</button>
+        <button class="btn pausar">Pausar</button>
+        <button class="btn reiniciar">Reiniciar</button>
+      </div>
+    </div>
+
+    <div class="cronometro">
+      <h2>Cronómetro 5</h2>
+      <label>Duración (segundos):</label>
+      <input type="number" class="tiempo-input" min="1" value="10">
+      <div class="display">00:00.00</div>
+      <div class="botones">
+        <button class="btn iniciar">Iniciar</button>
+        <button class="btn pausar">Pausar</button>
+        <button class="btn reiniciar">Reiniciar</button>
+      </div>
+    </div>
+  </main>
+  <div id="event-loop-log">
+  <h3>Event Loop Log:</h3>
+  <ul id="log-list"></ul>
+</div>
+
+  <script src="funcion.js"></script>
+</body>
+</html>
